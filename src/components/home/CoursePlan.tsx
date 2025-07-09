@@ -32,7 +32,7 @@ const sections = [
   {
     id: 'section-3',
     title: 'Section III - Modèle de Black & Scholes',
-    description: 'Formule de pricing et options réelles en finance d\'entreprise',
+    description: 'Formule de pricing et options réelles en finance d&apos;entreprise',
     icon: 'calculator',
     color: 'orange',
     href: '/section-3'
@@ -48,7 +48,7 @@ const sections = [
   {
     id: 'questions-dscg',
     title: 'Cas pratiques',
-    description: 'Exercices pratiques et cas d\'application pour l\'examen',
+    description: 'Exercices pratiques et cas d&apos;application pour l&apos;examen',
     icon: 'certificate',
     color: 'violet',
     href: '/questions-dscg'

@@ -16,7 +16,7 @@ interface Question {
 const questions: Question[] = [
   {
     id: 1,
-    question: "Quelle est la formule de la valeur intrinsèque d'un CALL ?",
+    question: "Quelle est la formule de la valeur intrinsèque d&apos;un CALL ?",
     options: [
       "VI = Max(0, E - S)",
       "VI = Max(0, S - E)",
@@ -24,7 +24,7 @@ const questions: Question[] = [
       "VI = S × E"
     ],
     correct: 1,
-    explanation: "La valeur intrinsèque d'un CALL est Max(0, S - E) car elle représente le gain immédiat si l'option était exercée maintenant."
+    explanation: "La valeur intrinsèque d&apos;un CALL est Max(0, S - E) car elle représente le gain immédiat si l&apos;option était exercée maintenant."
   },
   {
     id: 2,
@@ -36,11 +36,11 @@ const questions: Question[] = [
       "Perte illimitée"
     ],
     correct: 2,
-    explanation: "L'achat d'un CALL offre un potentiel de gain illimité car plus le cours monte, plus le gain augmente."
+    explanation: "L&apos;achat d&apos;un CALL offre un potentiel de gain illimité car plus le cours monte, plus le gain augmente."
   },
   {
     id: 3,
-    question: "Quelle est la formule de la valeur intrinsèque d'un PUT ?",
+    question: "Quelle est la formule de la valeur intrinsèque d&apos;un PUT ?",
     options: [
       "VI = Max(0, S - E)",
       "VI = Max(0, E - S)",
@@ -48,19 +48,19 @@ const questions: Question[] = [
       "VI = S - E"
     ],
     correct: 1,
-    explanation: "La valeur intrinsèque d'un PUT est Max(0, E - S) car elle représente le gain si on vendait l'actif au prix d'exercice."
+    explanation: "La valeur intrinsèque d&apos;un PUT est Max(0, E - S) car elle représente le gain si on vendait l&apos;actif au prix d&apos;exercice."
   },
   {
     id: 4,
-    question: "Que représente la valeur temps (VT) d'une option ?",
+    question: "Que représente la valeur temps (VT) d&apos;une option ?",
     options: [
-      "Le prix d'exercice",
+      "Le prix d&apos;exercice",
       "La valeur intrinsèque",
       "Le complément de prix au-delà de la VI",
       "Le cours du sous-jacent"
     ],
     correct: 2,
-    explanation: "La valeur temps est le complément de prix au-delà de la valeur intrinsèque que l'acheteur est prêt à payer compte tenu de ses anticipations."
+    explanation: "La valeur temps est le complément de prix au-delà de la valeur intrinsèque que l&apos;acheteur est prêt à payer compte tenu de ses anticipations."
   },
   {
     id: 5,
@@ -68,39 +68,39 @@ const questions: Question[] = [
     options: [
       "Le taux sans risque",
       "La volatilité du sous-jacent",
-      "Le prix d'exercice",
-      "La durée jusqu'à l'échéance"
+      "Le prix d&apos;exercice",
+      "La durée jusqu&apos;à l&apos;échéance"
     ],
     correct: 1,
-    explanation: "σ (sigma) représente la volatilité du sous-jacent, un paramètre clé qui mesure l'incertitude sur l'évolution du cours."
+    explanation: "σ (sigma) représente la volatilité du sous-jacent, un paramètre clé qui mesure l&apos;incertitude sur l&apos;évolution du cours."
   },
   {
     id: 6,
-    question: "Qu'est-ce qu'un Straddle ?",
+    question: "Qu&apos;est-ce qu&apos;un Straddle ?",
     options: [
-      "Achat simultané d'un CALL et d'un PUT",
-      "Vente simultanée d'un CALL et d'un PUT",
-      "Achat d'un CALL seulement",
-      "Vente d'un PUT seulement"
+      "Achat simultané d&apos;un CALL et d&apos;un PUT",
+      "Vente simultanée d&apos;un CALL et d&apos;un PUT",
+      "Achat d&apos;un CALL seulement",
+      "Vente d&apos;un PUT seulement"
     ],
     correct: 0,
-    explanation: "Un Straddle consiste à acheter simultanément un CALL et un PUT avec le même prix d'exercice et la même échéance."
+    explanation: "Un Straddle consiste à acheter simultanément un CALL et un PUT avec le même prix d&apos;exercice et la même échéance."
   },
   {
     id: 7,
-    question: "Quelle est la perte maximale lors de la vente d'un CALL ?",
+    question: "Quelle est la perte maximale lors de la vente d&apos;un CALL ?",
     options: [
       "Limitée à la prime",
       "Illimitée",
-      "Égale au prix d'exercice",
+      "Égale au prix d&apos;exercice",
       "Nulle"
     ],
     correct: 1,
-    explanation: "La vente d'un CALL expose à des pertes potentiellement illimitées si le cours monte fortement au-dessus du prix d'exercice."
+    explanation: "La vente d&apos;un CALL expose à des pertes potentiellement illimitées si le cours monte fortement au-dessus du prix d&apos;exercice."
   },
   {
     id: 8,
-    question: "À l'échéance d'une option, que vaut la valeur temps (VT) ?",
+    question: "À l&apos;échéance d&apos;une option, que vaut la valeur temps (VT) ?",
     options: [
       "Elle augmente",
       "Elle reste constante",
@@ -108,7 +108,7 @@ const questions: Question[] = [
       "Elle devient négative"
     ],
     correct: 2,
-    explanation: "À l'échéance, la valeur temps vaut toujours 0, donc Prime = VI (valeur intrinsèque)."
+    explanation: "À l&apos;échéance, la valeur temps vaut toujours 0, donc Prime = VI (valeur intrinsèque)."
   },
   {
     id: 9,
@@ -120,19 +120,19 @@ const questions: Question[] = [
       "Une action privilégiée"
     ],
     correct: 1,
-    explanation: "Les actionnaires détiennent un CALL implicite sur les actifs de l'entreprise du fait de leur responsabilité limitée."
+    explanation: "Les actionnaires détiennent un CALL implicite sur les actifs de l&apos;entreprise du fait de leur responsabilité limitée."
   },
   {
     id: 10,
     question: "Quelle stratégie privilégient les spéculateurs dépourvus de trésorerie pour parier à la baisse ?",
     options: [
-      "Achat d'un CALL",
-      "Achat d'un PUT",
-      "Vente d'un CALL",
-      "Vente d'un PUT"
+      "Achat d&apos;un CALL",
+      "Achat d&apos;un PUT",
+      "Vente d&apos;un CALL",
+      "Vente d&apos;un PUT"
     ],
     correct: 2,
-    explanation: "La vente d'un CALL est privilégiée par les spéculateurs dépourvus de trésorerie pour acheter un PUT, car elle permet de parier à la baisse sans capital initial."
+    explanation: "La vente d&apos;un CALL est privilégiée par les spéculateurs dépourvus de trésorerie pour acheter un PUT, car elle permet de parier à la baisse sans capital initial."
   }
 ]
 

@@ -26,12 +26,12 @@ const exercises: Exercise[] = [
     title: "Calcul de prime avec Black & Scholes",
     difficulty: "Moyen",
     points: 8,
-    statement: "Une entreprise souhaite évaluer des options sur ses actions pour un plan d'intéressement.",
+    statement: "Une entreprise souhaite évaluer des options sur ses actions pour un plan d&apos;intéressement.",
     data: [
-      "Cours actuel de l'action : 150€",
-      "Prix d'exercice : 140€",
+      "Cours actuel de l&apos;action : 150€",
+      "Prix d&apos;exercice : 140€",
       "Volatilité annuelle : 25%",
-      "Durée jusqu'à l'échéance : 6 mois",
+      "Durée jusqu&apos;à l&apos;échéance : 6 mois",
       "Taux sans risque : 2,5%"
     ],
     questions: [
@@ -50,7 +50,7 @@ const exercises: Exercise[] = [
         "Prime put = 16,24 - 150 + 140 × e^(-0,025×0,5) = 4,49€"
       ],
       result: "Prime du call : 16,24€ (VI : 10€, VT : 6,24€) | Prime du put : 4,49€",
-      explanation: "Le call est dans la monnaie avec une valeur temps significative. Le put, hors de la monnaie, n'a que de la valeur temps."
+      explanation: "Le call est dans la monnaie avec une valeur temps significative. Le put, hors de la monnaie, n&apos;a que de la valeur temps."
     }
   },
   {
@@ -58,10 +58,10 @@ const exercises: Exercise[] = [
     title: "Stratégie spéculative - Straddle",
     difficulty: "Difficile",
     points: 12,
-    statement: "Un investisseur anticipe une forte volatilité sur l'action LVMH autour de la publication des résultats, sans savoir le sens de la variation.",
+    statement: "Un investisseur anticipe une forte volatilité sur l&apos;action LVMH autour de la publication des résultats, sans savoir le sens de la variation.",
     data: [
       "Cours actuel LVMH : 800€",
-      "Prix d'exercice des options : 800€",
+      "Prix d&apos;exercice des options : 800€",
       "Prime du call : 45€",
       "Prime du put : 42€",
       "Échéance : dans 1 mois"
@@ -74,7 +74,7 @@ const exercises: Exercise[] = [
     ],
     solution: {
       steps: [
-        "Stratégie : Achat simultané d'un call et d'un put à 800€",
+        "Stratégie : Achat simultané d&apos;un call et d&apos;un put à 800€",
         "Coût total = 45€ + 42€ = 87€",
         "Seuil haut = 800€ + 87€ = 887€",
         "Seuil bas = 800€ - 87€ = 713€",
@@ -87,7 +87,7 @@ const exercises: Exercise[] = [
   },
   {
     id: 3,
-    title: "Options réelles - Évaluation d'entreprise",
+    title: "Options réelles - Évaluation d&apos;entreprise",
     difficulty: "Difficile",
     points: 15,
     statement: "Une PME en difficulté financière doit être évaluée. Les actionnaires bénéficient de la responsabilité limitée.",
@@ -115,7 +115,7 @@ const exercises: Exercise[] = [
         "Probabilité faillite = 1 - N(-0,764) = 1 - 0,222 = 77,8%"
       ],
       result: "Capitaux propres : 12,0M€ | Dette : 48,0M€ | Probabilité faillite : 77,8%",
-      explanation: "Malgré une valeur d'actifs inférieure à la dette, les capitaux propres ont une valeur positive grâce à l'option implicite. Le risque de faillite reste élevé."
+      explanation: "Malgré une valeur d&apos;actifs inférieure à la dette, les capitaux propres ont une valeur positive grâce à l&apos;option implicite. Le risque de faillite reste élevé."
     }
   }
 ]
@@ -171,7 +171,7 @@ export default function QuestionsDSCG() {
             </div>
             <div>
               <h1 className="text-3xl font-bold text-gray-800">Cas pratiques</h1>
-              <p className="text-gray-600 mt-2">Exercices pratiques d'application sur les options financières</p>
+              <p className="text-gray-600 mt-2">Exercices pratiques d&apos;application sur les options financières</p>
             </div>
           </div>
 
@@ -180,7 +180,7 @@ export default function QuestionsDSCG() {
             <ul className="space-y-2 text-purple-700">
               <li>• Maîtriser les calculs de primes avec Black & Scholes</li>
               <li>• Analyser les stratégies spéculatives complexes</li>
-              <li>• Appliquer les options réelles en finance d'entreprise</li>
+              <li>• Appliquer les options réelles en finance d&apos;entreprise</li>
               <li>• Développer une méthodologie de résolution DSCG</li>
             </ul>
           </div>
@@ -196,7 +196,7 @@ export default function QuestionsDSCG() {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               className="bg-white rounded-xl shadow-lg overflow-hidden"
             >
-              {/* Header de l'exercice */}
+              {/* Header de l&apos;exercice */}
               <div className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white p-6">
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center gap-3">
@@ -338,8 +338,8 @@ export default function QuestionsDSCG() {
             <div>
               <h4 className="font-semibold mb-2">Avant de commencer :</h4>
               <ul className="space-y-1 text-sm">
-                <li>• Lire attentivement l'énoncé</li>
-                <li>• Identifier le type d'option et la stratégie</li>
+                <li>• Lire attentivement l&apos;énoncé</li>
+                <li>• Identifier le type d&apos;option et la stratégie</li>
                 <li>• Lister les données disponibles</li>
                 <li>• Choisir la formule appropriée</li>
               </ul>

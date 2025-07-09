@@ -51,22 +51,22 @@ export default function Section1() {
           {/* Formules principales */}
           <div className="grid md:grid-cols-2 gap-6 mb-8">
             <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
-              <h3 className="text-lg font-bold text-blue-800 mb-3">📈 Valeur Intrinsèque d'un CALL</h3>
+              <h3 className="text-lg font-bold text-blue-800 mb-3">📈 Valeur Intrinsèque d&apos;un CALL</h3>
               <div className="bg-white p-4 rounded border text-center">
                 <code className="text-xl font-bold text-blue-600">VI = max(S - E ; 0)</code>
               </div>
               <p className="text-gray-600 mt-3 text-sm">
-                S = cours du sous-jacent, E = prix d'exercice
+                S = cours du sous-jacent, E = prix d&apos;exercice
               </p>
             </div>
             
             <div className="bg-red-50 p-6 rounded-lg border border-red-200">
-              <h3 className="text-lg font-bold text-red-800 mb-3">📉 Valeur Intrinsèque d'un PUT</h3>
+              <h3 className="text-lg font-bold text-red-800 mb-3">📉 Valeur Intrinsèque d&apos;un PUT</h3>
               <div className="bg-white p-4 rounded border text-center">
                 <code className="text-xl font-bold text-red-600">VI = max(E - S ; 0)</code>
               </div>
               <p className="text-gray-600 mt-3 text-sm">
-                E = prix d'exercice, S = cours du sous-jacent
+                E = prix d&apos;exercice, S = cours du sous-jacent
               </p>
             </div>
           </div>
@@ -78,17 +78,17 @@ export default function Section1() {
               <code className="text-2xl font-bold text-purple-600">Prime = VI + VT</code>
             </div>
             <p className="text-gray-700 leading-relaxed">
-              <strong>VT (Valeur Temps)</strong> : complément de prix au-delà de la valeur intrinsèque que l'acheteur 
-              est prêt à payer compte tenu de ses anticipations sur l'évolution du cours du sous-jacent d'ici à l'échéance.
+              <strong>VT (Valeur Temps)</strong> : complément de prix au-delà de la valeur intrinsèque que l&apos;acheteur 
+              est prêt à payer compte tenu de ses anticipations sur l&apos;évolution du cours du sous-jacent d&apos;ici à l&apos;échéance.
             </p>
             <div className="bg-yellow-100 p-3 rounded mt-4">
-              <p className="text-yellow-800 font-medium">⚠️ À l'échéance : VT = 0, donc Prime = VI</p>
+              <p className="text-yellow-800 font-medium">⚠️ À l&apos;échéance : VT = 0, donc Prime = VI</p>
             </div>
           </div>
 
           {/* Exemple CALL */}
           <div className="bg-blue-50 p-6 rounded-lg mb-8 border border-blue-200">
-            <h3 className="text-xl font-bold text-blue-800 mb-4">📊 Exemple - CALL (option d'achat)</h3>
+            <h3 className="text-xl font-bold text-blue-800 mb-4">📊 Exemple - CALL (option d&apos;achat)</h3>
             
             <div className="grid md:grid-cols-2 gap-4 mb-4">
               <div className="bg-white p-4 rounded border">
@@ -137,7 +137,7 @@ export default function Section1() {
             <h3 className="text-xl font-bold text-yellow-800 mb-3">💡 Point clé à retenir</h3>
             <p className="text-gray-700 text-lg">
               La VI peut valoir 0, mais cela ne signifie pas que la prime vaut 0. 
-              Il reste toujours une <strong>valeur temps</strong> tant que l'option n'a pas atteint son échéance.
+              Il reste toujours une <strong>valeur temps</strong> tant que l&apos;option n&apos;a pas atteint son échéance.
             </p>
           </div>
 

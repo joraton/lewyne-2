@@ -64,7 +64,7 @@ export default function Section3() {
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="bg-blue-500 rounded-full w-3 h-3 flex-shrink-0"></div>
-                  <span><strong>E :</strong> Prix d'exercice</span>
+                  <span><strong>E :</strong> Prix d&apos;exercice</span>
                 </div>
               </div>
               <div className="space-y-3">
@@ -74,7 +74,7 @@ export default function Section3() {
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="bg-blue-500 rounded-full w-3 h-3 flex-shrink-0"></div>
-                  <span><strong>τ :</strong> Durée jusqu'à l'échéance (en années)</span>
+                  <span><strong>τ :</strong> Durée jusqu&apos;à l&apos;échéance (en années)</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="bg-blue-500 rounded-full w-3 h-3 flex-shrink-0"></div>
@@ -124,7 +124,7 @@ export default function Section3() {
                 {/* Valeur intrinsèque */}
                 <line x1="300" y1="350" x2="750" y2="50" stroke="#ef4444" strokeWidth="2" strokeDasharray="5,5"/>
                 
-                {/* Prix d'exercice */}
+                {/* Prix d&apos;exercice */}
                 <line x1="300" y1="350" x2="300" y2="50" stroke="#059669" strokeWidth="2" strokeDasharray="3,3"/>
                 <text x="305" y="40" className="text-sm fill-green-600">E = 100€</text>
                 
@@ -140,7 +140,7 @@ export default function Section3() {
                   <line x1="10" y1="40" x2="30" y2="40" stroke="#ef4444" strokeWidth="2" strokeDasharray="5,5"/>
                   <text x="35" y="45" className="text-xs fill-gray-700">Valeur intrinsèque</text>
                   <line x1="10" y1="60" x2="30" y2="60" stroke="#059669" strokeWidth="2" strokeDasharray="3,3"/>
-                  <text x="35" y="65" className="text-xs fill-gray-700">Prix d'exercice</text>
+                  <text x="35" y="65" className="text-xs fill-gray-700">Prix d&apos;exercice</text>
                 </g>
               </svg>
             </div>
@@ -200,7 +200,7 @@ export default function Section3() {
                 <text x="400" y="280" textAnchor="middle" className="text-sm fill-gray-600">Cours du sous-jacent</text>
                 <text x="20" y="150" textAnchor="middle" className="text-sm fill-gray-600" transform="rotate(-90 20 150)">Valeur</text>
                 
-                {/* Prix d'exercice */}
+                {/* Prix d&apos;exercice */}
                 <line x1="400" y1="250" x2="400" y2="50" stroke="#6b7280" strokeWidth="1" strokeDasharray="3,3"/>
                 <text x="405" y="60" className="text-xs fill-gray-600">E</text>
                 
@@ -450,7 +450,7 @@ export default function Section3() {
                 <div className="space-y-2 text-sm text-amber-700">
                   <p><strong>1.</strong> Vendre le call à 15€</p>
                   <p><strong>2.</strong> Vendre le put à 8€</p>
-                  <p><strong>3.</strong> Acheter l'action à 105€</p>
+                  <p><strong>3.</strong> Acheter l&apos;action à 105€</p>
                   <p><strong>4.</strong> Placer 100×e^(-0,03×0,25) = 99,25€</p>
                   <p className="font-bold text-green-600 mt-3">Profit garanti : 0,75€</p>
                 </div>
@@ -465,8 +465,8 @@ export default function Section3() {
             <div className="bg-white p-4 rounded border mb-4">
               <h3 className="font-bold text-violet-700 mb-3">Concept :</h3>
               <p className="text-gray-700 leading-relaxed">
-                Les actionnaires détiennent implicitement un <strong>call sur les actifs de l'entreprise</strong> 
-                du fait de leur responsabilité limitée. À l'échéance de la dette :
+                Les actionnaires détiennent implicitement un <strong>call sur les actifs de l&apos;entreprise</strong> 
+                du fait de leur responsabilité limitée. À l&apos;échéance de la dette :
               </p>
               <ul className="mt-3 space-y-2 text-gray-700">
                 <li>• Si <strong>Valeur des actifs &gt; Dette</strong> : exercice du call (remboursement)</li>
@@ -504,7 +504,7 @@ export default function Section3() {
                 {/* Scénarios */}
                 <g transform="translate(600, 50)">
                   <rect x="0" y="0" width="180" height="120" fill="white" stroke="#d1d5db" rx="5"/>
-                  <text x="90" y="20" textAnchor="middle" className="text-sm font-bold fill-gray-700">À l'échéance :</text>
+                  <text x="90" y="20" textAnchor="middle" className="text-sm font-bold fill-gray-700">À l&apos;échéance :</text>
                   
                   <text x="10" y="40" className="text-xs fill-green-600">Si VE &gt; 80M€ :</text>
                   <text x="10" y="55" className="text-xs fill-green-600">• Remboursement</text>
@@ -569,8 +569,8 @@ export default function Section3() {
             <div className="bg-white p-4 rounded border mb-4">
               <h3 className="font-bold text-indigo-700 mb-3">Contexte :</h3>
               <p className="text-gray-700 text-sm leading-relaxed">
-                Acquisition en Uruguay (100M€) pour tester le marché, avec option d'expansion au Brésil 
-                dans 3 ans (1Md€). VAN classique = -10M€, mais l'investissement donne accès à une option réelle.
+                Acquisition en Uruguay (100M€) pour tester le marché, avec option d&apos;expansion au Brésil 
+                dans 3 ans (1Md€). VAN classique = -10M€, mais l&apos;investissement donne accès à une option réelle.
               </p>
             </div>
             
@@ -579,7 +579,7 @@ export default function Section3() {
                 <h4 className="font-bold text-indigo-700 mb-2">Option sur le Brésil :</h4>
                 <ul className="space-y-1 text-gray-700 text-sm">
                   <li><strong>S :</strong> 900M€ (valeur actuelle)</li>
-                  <li><strong>E :</strong> 1000M€ (prix d'acquisition)</li>
+                  <li><strong>E :</strong> 1000M€ (prix d&apos;acquisition)</li>
                   <li><strong>σ :</strong> 40%</li>
                   <li><strong>τ :</strong> 3 ans</li>
                   <li><strong>r :</strong> 5%</li>
@@ -589,7 +589,7 @@ export default function Section3() {
               <div className="bg-indigo-100 p-4 rounded">
                 <h4 className="font-bold text-indigo-800 mb-2">Résultat :</h4>
                 <p className="text-indigo-700">
-                  <strong>Valeur de l'option :</strong> 258M€<br/>
+                  <strong>Valeur de l&apos;option :</strong> 258M€<br/>
                   <strong>VAN ajustée :</strong> -10 + 258 = 248M€
                 </p>
                 <p className="text-green-700 font-bold mt-2">✅ Recommandation : INVESTIR</p>
@@ -605,7 +605,7 @@ export default function Section3() {
               <div className="bg-white p-4 rounded border">
                 <h3 className="font-bold text-rose-700 mb-3">❌ Erreurs fréquentes :</h3>
                 <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• <strong>Oublier l'actualisation :</strong> E × e^(-rτ) et non E</li>
+                  <li>• <strong>Oublier l&apos;actualisation :</strong> E × e^(-rτ) et non E</li>
                   <li>• <strong>Confondre d₁ et d₂ :</strong> d₂ = d₁ - σ√τ</li>
                   <li>• <strong>Mauvaise volatilité :</strong> σ annualisée obligatoire</li>
                   <li>• <strong>Temps en années :</strong> 3 mois = 0,25 et non 3</li>
@@ -644,9 +644,9 @@ export default function Section3() {
                 </div>
                 <div>
                   <p className="font-bold">Applications :</p>
-                  <p>• Pricing d'options</p>
+                  <p>• Pricing d&apos;options</p>
                   <p>• Gestion des risques</p>
-                  <p>• Évaluation d'entreprises</p>
+                  <p>• Évaluation d&apos;entreprises</p>
                 </div>
               </div>
             </div>
@@ -656,11 +656,11 @@ export default function Section3() {
           <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-200">
             <h3 className="text-xl font-bold text-yellow-800 mb-3">🧠 Moyens mnémotechniques</h3>
             <div className="space-y-3 text-gray-700">
-              <p><strong>"BLACK & SCHOLES = BANQUE & SCIENCE"</strong> - Modèle scientifique utilisé par les banques</p>
-              <p><strong>"N(d) = NORMALE DISTRIBUTION"</strong> - N représente la fonction de répartition normale</p>
-              <p><strong>"OPTIONS RÉELLES = OPPORTUNITÉS RÉELLES"</strong> - Valoriser les opportunités futures</p>
-              <p><strong>"DELTA GAMMA THETA VEGA = DGTV"</strong> - Les 4 grecques principales dans l'ordre</p>
-              <p><strong>"CALL = COURS × NORMALE - EXERCICE × EXPONENTIELLE × NORMALE"</strong> - Structure de la formule</p>
+              <p><strong>&quot;BLACK & SCHOLES = BANQUE & SCIENCE&quot;</strong> - Modèle scientifique utilisé par les banques</p>
+              <p><strong>&quot;N(d) = NORMALE DISTRIBUTION&quot;</strong> - N représente la fonction de répartition normale</p>
+              <p><strong>&quot;OPTIONS RÉELLES = OPPORTUNITÉS RÉELLES&quot;</strong> - Valoriser les opportunités futures</p>
+              <p><strong>&quot;DELTA GAMMA THETA VEGA = DGTV&quot;</strong> - Les 4 grecques principales dans l&apos;ordre</p>
+              <p><strong>&quot;CALL = COURS × NORMALE - EXERCICE × EXPONENTIELLE × NORMALE&quot;</strong> - Structure de la formule</p>
             </div>
           </div>
         </motion.div>
@@ -673,7 +673,7 @@ export default function Section3() {
           </Link>
           
           <Link href="/quiz" className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-3 rounded-lg font-medium flex items-center gap-2 transition-colors">
-            Quiz d'évaluation
+            Quiz d&apos;évaluation
             <ArrowRight className="w-5 h-5" />
           </Link>
         </div>

@@ -25,7 +25,7 @@ export default function CourseHeader() {
             </h1>
             
             <p className="text-xl text-blue-100 mb-6 leading-relaxed">
-              Maîtrisez les stratégies d'options, de la théorie de Black & Scholes aux applications pratiques. 
+              Maîtrisez les stratégies d&apos;options, de la théorie de Black & Scholes aux applications pratiques. 
               Découvrez les calls, puts, et stratégies complexes pour optimiser vos investissements.
             </p>
             

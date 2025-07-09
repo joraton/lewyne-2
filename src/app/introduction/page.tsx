@@ -53,27 +53,27 @@ export default function Introduction() {
             <h2 className="text-xl font-bold text-blue-800 mb-3">📚 Définition</h2>
             <p className="text-gray-700 leading-relaxed text-lg">
               Une <strong>option</strong> est un droit d'acheter (<strong>call</strong>) ou de vendre (<strong>put</strong>) 
-              un actif financier sous-jacent à une date donnée (option à l'européenne) ou pendant une période donnée 
-              (option à l'américaine), à un prix donné à l'avance : le <strong>« prix d'exercice »</strong>. 
-              Le prix de l'option s'appelle la <strong>prime</strong>.
+              un actif financier sous-jacent à une date donnée (option à l&apos;européenne) ou pendant une période donnée 
+              (option à l&apos;américaine), à un prix donné à l&apos;avance : le <strong>« prix d&apos;exercice »</strong>. 
+              Le prix de l&apos;option s&apos;appelle la <strong>prime</strong>.
             </p>
           </div>
 
           {/* Concepts clés */}
           <div className="grid md:grid-cols-2 gap-6 mb-8">
             <div className="bg-green-50 p-6 rounded-lg border border-green-200">
-              <h3 className="text-lg font-bold text-green-800 mb-3">🚀 Call (Option d'achat)</h3>
+              <h3 className="text-lg font-bold text-green-800 mb-3">🚀 Call (Option d&apos;achat)</h3>
               <p className="text-gray-700">
-                Donne le <strong>droit d'acheter</strong> l'actif sous-jacent au prix d'exercice. 
-                Profitable quand le cours monte au-dessus du prix d'exercice.
+                Donne le <strong>droit d&apos;acheter</strong> l&apos;actif sous-jacent au prix d&apos;exercice. 
+                Profitable quand le cours monte au-dessus du prix d&apos;exercice.
               </p>
             </div>
             
             <div className="bg-red-50 p-6 rounded-lg border border-red-200">
               <h3 className="text-lg font-bold text-red-800 mb-3">📉 Put (Option de vente)</h3>
               <p className="text-gray-700">
-                Donne le <strong>droit de vendre</strong> l'actif sous-jacent au prix d'exercice. 
-                Profitable quand le cours descend en-dessous du prix d'exercice.
+                Donne le <strong>droit de vendre</strong> l&apos;actif sous-jacent au prix d&apos;exercice. 
+                Profitable quand le cours descend en-dessous du prix d&apos;exercice.
               </p>
             </div>
           </div>
@@ -86,28 +86,28 @@ export default function Introduction() {
                 <div className="bg-blue-500 rounded-full w-2 h-2 mt-2 flex-shrink-0"></div>
                 <div>
                   <strong className="text-gray-800">S :</strong> 
-                  <span className="text-gray-600"> Cours de l'actif sous-jacent</span>
+                  <span className="text-gray-600"> Cours de l&apos;actif sous-jacent</span>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <div className="bg-blue-500 rounded-full w-2 h-2 mt-2 flex-shrink-0"></div>
                 <div>
                   <strong className="text-gray-800">E :</strong> 
-                  <span className="text-gray-600"> Prix d'exercice</span>
+                  <span className="text-gray-600"> Prix d&apos;exercice</span>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <div className="bg-blue-500 rounded-full w-2 h-2 mt-2 flex-shrink-0"></div>
                 <div>
                   <strong className="text-gray-800">Prime :</strong> 
-                  <span className="text-gray-600"> Prix de l'option</span>
+                  <span className="text-gray-600"> Prix de l&apos;option</span>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <div className="bg-blue-500 rounded-full w-2 h-2 mt-2 flex-shrink-0"></div>
                 <div>
                   <strong className="text-gray-800">Échéance :</strong> 
-                  <span className="text-gray-600"> Date limite d'exercice</span>
+                  <span className="text-gray-600"> Date limite d&apos;exercice</span>
                 </div>
               </div>
             </div>
@@ -115,20 +115,20 @@ export default function Introduction() {
 
           {/* Types d'options */}
           <div className="bg-purple-50 p-6 rounded-lg mb-8 border border-purple-200">
-            <h3 className="text-xl font-bold text-purple-800 mb-4">🌍 Types d'options selon l'exercice</h3>
+            <h3 className="text-xl font-bold text-purple-800 mb-4">🌍 Types d&apos;options selon l&apos;exercice</h3>
             <div className="space-y-4">
               <div className="flex items-start gap-3">
                 <div className="bg-purple-500 rounded-full w-2 h-2 mt-2 flex-shrink-0"></div>
                 <div>
                   <strong className="text-purple-800">Option européenne :</strong> 
-                  <span className="text-gray-700"> Ne peut être exercée qu'à la date d'échéance</span>
+                  <span className="text-gray-700"> Ne peut être exercée qu&apos;à la date d&apos;échéance</span>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <div className="bg-purple-500 rounded-full w-2 h-2 mt-2 flex-shrink-0"></div>
                 <div>
                   <strong className="text-purple-800">Option américaine :</strong> 
-                  <span className="text-gray-700"> Peut être exercée à tout moment jusqu'à l'échéance</span>
+                  <span className="text-gray-700"> Peut être exercée à tout moment jusqu&apos;à l&apos;échéance</span>
                 </div>
               </div>
             </div>
@@ -141,7 +141,7 @@ export default function Introduction() {
               <strong>"CAPE"</strong> - <strong>C</strong>all <strong>A</strong>chat, <strong>P</strong>ut <strong>E</strong>xercice
             </p>
             <p className="text-gray-600 mt-2">
-              Le Call donne le droit d'<strong>Acheter</strong>, le Put permet l'<strong>Exercice</strong> de vente.
+              Le Call donne le droit d&apos;<strong>Acheter</strong>, le Put permet l&apos;<strong>Exercice</strong> de vente.
             </p>
           </div>
         </motion.div>

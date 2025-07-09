@@ -62,7 +62,7 @@ export default function Section2() {
             </div>
             <div>
               <h1 className="text-3xl font-bold text-gray-800">Stratégies spéculatives de base</h1>
-              <p className="text-gray-600 mt-2">Achat et vente d'options : calls et puts</p>
+              <p className="text-gray-600 mt-2">Achat et vente d&apos;options : calls et puts</p>
             </div>
           </div>
 
@@ -75,7 +75,7 @@ export default function Section2() {
                 <div className="bg-white p-4 rounded border mb-4">
                   <h3 className="font-bold text-green-700 mb-2">Paramètres de l'exemple :</h3>
                   <ul className="space-y-1 text-gray-700">
-                    <li><strong>Prix d'exercice (E) :</strong> 100€</li>
+                    <li><strong>Prix d&apos;exercice (E) :</strong> 100€</li>
                     <li><strong>Prime payée :</strong> 10€</li>
                   </ul>
                 </div>
@@ -84,7 +84,7 @@ export default function Section2() {
                   <table className="w-full text-sm">
                     <thead className="bg-green-100">
                       <tr>
-                        <th className="p-2 text-left">S à l'échéance</th>
+                        <th className="p-2 text-left">S à l&apos;échéance</th>
                         <th className="p-2 text-center">Prime payée</th>
                         <th className="p-2 text-center">VI</th>
                         <th className="p-2 text-center">Résultat</th>
@@ -169,8 +169,8 @@ export default function Section2() {
               <h3 className="font-bold text-blue-700 mb-3">💡 Exemple détaillé :</h3>
               <div className="space-y-2 text-sm">
                 <p><strong>Situation :</strong> Vous pensez que l'action XYZ va monter fortement</p>
-                <p><strong>Action :</strong> Achat d'un CALL à 100€ pour 10€ de prime</p>
-                <p><strong>Scénarios à l'échéance :</strong></p>
+                <p><strong>Action :</strong> Achat d&apos;un CALL à 100€ pour 10€ de prime</p>
+                <p><strong>Scénarios à l&apos;échéance :</strong></p>
                 <ul className="list-disc list-inside ml-4 space-y-1">
                   <li><strong>Si S = 95€ :</strong> Option non exercée → Perte = 10€</li>
                   <li><strong>Si S = 105€ :</strong> Gain = (105-100) - 10 = -5€ (perte réduite)</li>
@@ -192,7 +192,7 @@ export default function Section2() {
                 <div className="bg-white p-4 rounded border mb-4">
                   <h3 className="font-bold text-red-700 mb-2">Paramètres de l'exemple :</h3>
                   <ul className="space-y-1 text-gray-700">
-                    <li><strong>Prix d'exercice (E) :</strong> 100€</li>
+                    <li><strong>Prix d&apos;exercice (E) :</strong> 100€</li>
                     <li><strong>Prime payée :</strong> 10€</li>
                   </ul>
                 </div>
@@ -201,7 +201,7 @@ export default function Section2() {
                   <table className="w-full text-sm">
                     <thead className="bg-red-100">
                       <tr>
-                        <th className="p-2 text-left">S à l'échéance</th>
+                        <th className="p-2 text-left">S à l&apos;échéance</th>
                         <th className="p-2 text-center">Prime payée</th>
                         <th className="p-2 text-center">VI</th>
                         <th className="p-2 text-center">Résultat</th>
@@ -286,8 +286,8 @@ export default function Section2() {
               <h3 className="font-bold text-blue-700 mb-3">💡 Exemple détaillé :</h3>
               <div className="space-y-2 text-sm">
                 <p><strong>Situation :</strong> Vous pensez que l'action XYZ va baisser ou vous voulez protéger votre portefeuille</p>
-                <p><strong>Action :</strong> Achat d'un PUT à 100€ pour 10€ de prime</p>
-                <p><strong>Scénarios à l'échéance :</strong></p>
+                <p><strong>Action :</strong> Achat d&apos;un PUT à 100€ pour 10€ de prime</p>
+                <p><strong>Scénarios à l&apos;échéance :</strong></p>
                 <ul className="list-disc list-inside ml-4 space-y-1">
                   <li><strong>Si S = 110€ :</strong> Option non exercée → Perte = 10€</li>
                   <li><strong>Si S = 95€ :</strong> Gain = (100-95) - 10 = -5€ (perte réduite)</li>
@@ -309,7 +309,7 @@ export default function Section2() {
                 <div className="bg-white p-4 rounded border mb-4">
                   <h3 className="font-bold text-orange-700 mb-2">Paramètres de l'exemple :</h3>
                   <ul className="space-y-1 text-gray-700">
-                    <li><strong>Prix d'exercice (E) :</strong> 100€</li>
+                    <li><strong>Prix d&apos;exercice (E) :</strong> 100€</li>
                     <li><strong>Prime perçue :</strong> 10€</li>
                   </ul>
                 </div>
@@ -318,7 +318,7 @@ export default function Section2() {
                   <table className="w-full text-sm">
                     <thead className="bg-orange-100">
                       <tr>
-                        <th className="p-2 text-left">S à l'échéance</th>
+                        <th className="p-2 text-left">S à l&apos;échéance</th>
                         <th className="p-2 text-center">Prime perçue</th>
                         <th className="p-2 text-center">Financement VI</th>
                         <th className="p-2 text-center">Résultat</th>
@@ -355,7 +355,7 @@ export default function Section2() {
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>La contrepartie exerce son call</li>
                     <li>Le vendeur doit acheter l'action à 110€</li>
-                    <li>Il la revend à 100€ (prix d'exercice)</li>
+                    <li>Il la revend à 100€ (prix d&apos;exercice)</li>
                     <li>Perte de 10€ sur la transaction</li>
                     <li>Mais il a encaissé 10€ de prime</li>
                     <li><strong>Résultat net : 0€</strong></li>
@@ -415,8 +415,8 @@ export default function Section2() {
               <h3 className="font-bold text-blue-700 mb-3">💡 Exemple détaillé :</h3>
               <div className="space-y-2 text-sm">
                 <p><strong>Situation :</strong> Vous pensez que l'action XYZ va stagner ou baisser</p>
-                <p><strong>Action :</strong> Vente d'un CALL à 100€ pour 10€ de prime</p>
-                <p><strong>Scénarios à l'échéance :</strong></p>
+                <p><strong>Action :</strong> Vente d&apos;un CALL à 100€ pour 10€ de prime</p>
+                <p><strong>Scénarios à l&apos;échéance :</strong></p>
                 <ul className="list-disc list-inside ml-4 space-y-1">
                   <li><strong>Si S = 95€ :</strong> Option non exercée → Gain = 10€ (prime conservée)</li>
                   <li><strong>Si S = 105€ :</strong> Gain = 10 - (105-100) = 5€</li>
@@ -438,7 +438,7 @@ export default function Section2() {
                 <div className="bg-white p-4 rounded border mb-4">
                   <h3 className="font-bold text-blue-700 mb-2">Paramètres de l'exemple :</h3>
                   <ul className="space-y-1 text-gray-700">
-                    <li><strong>Prix d'exercice (E) :</strong> 100€</li>
+                    <li><strong>Prix d&apos;exercice (E) :</strong> 100€</li>
                     <li><strong>Prime perçue :</strong> 10€</li>
                   </ul>
                 </div>
@@ -447,7 +447,7 @@ export default function Section2() {
                   <table className="w-full text-sm">
                     <thead className="bg-blue-100">
                       <tr>
-                        <th className="p-2 text-left">S à l'échéance</th>
+                        <th className="p-2 text-left">S à l&apos;échéance</th>
                         <th className="p-2 text-center">Prime perçue</th>
                         <th className="p-2 text-center">Financement VI</th>
                         <th className="p-2 text-center">Résultat</th>
@@ -543,8 +543,8 @@ export default function Section2() {
               <h3 className="font-bold text-blue-700 mb-3">💡 Exemple détaillé :</h3>
               <div className="space-y-2 text-sm">
                 <p><strong>Situation :</strong> Vous pensez que l'action XYZ va rester stable ou monter légèrement</p>
-                <p><strong>Action :</strong> Vente d'un PUT à 100€ pour 10€ de prime</p>
-                <p><strong>Scénarios à l'échéance :</strong></p>
+                <p><strong>Action :</strong> Vente d&apos;un PUT à 100€ pour 10€ de prime</p>
+                <p><strong>Scénarios à l&apos;échéance :</strong></p>
                 <ul className="list-disc list-inside ml-4 space-y-1">
                   <li><strong>Si S = 110€ :</strong> Option non exercée → Gain = 10€ (prime conservée)</li>
                   <li><strong>Si S = 95€ :</strong> Perte = 10 - (100-95) = 5€</li>
@@ -566,7 +566,7 @@ export default function Section2() {
                 <div className="bg-white p-4 rounded border mb-4">
                   <h3 className="font-bold text-violet-700 mb-2">Paramètres de l'exemple :</h3>
                   <ul className="space-y-1 text-gray-700">
-                    <li><strong>Prix d'exercice identique :</strong> 100€</li>
+                    <li><strong>Prix d&apos;exercice identique :</strong> 100€</li>
                     <li><strong>Échéance identique</strong></li>
                     <li><strong>Prime call :</strong> 8€</li>
                     <li><strong>Prime put :</strong> 6€</li>
@@ -578,7 +578,7 @@ export default function Section2() {
                   <table className="w-full text-sm">
                     <thead className="bg-violet-100">
                       <tr>
-                        <th className="p-2 text-left">S à l'échéance</th>
+                        <th className="p-2 text-left">S à l&apos;échéance</th>
                         <th className="p-2 text-center">Résultat Call</th>
                         <th className="p-2 text-center">Résultat Put</th>
                         <th className="p-2 text-center">Total</th>
@@ -689,9 +689,9 @@ export default function Section2() {
               <h3 className="font-bold text-blue-700 mb-3">💡 Exemple détaillé :</h3>
               <div className="space-y-2 text-sm">
                 <p><strong>Situation :</strong> Vous pensez que l'action XYZ va rester stable autour de 100€</p>
-                <p><strong>Action :</strong> Vente simultanée d'un CALL et d'un PUT à 100€</p>
+                <p><strong>Action :</strong> Vente simultanée d&apos;un CALL et d&apos;un PUT à 100€</p>
                 <p><strong>Primes encaissées :</strong> 8€ (CALL) + 6€ (PUT) = 14€</p>
-                <p><strong>Scénarios à l'échéance :</strong></p>
+                <p><strong>Scénarios à l&apos;échéance :</strong></p>
                 <ul className="list-disc list-inside ml-4 space-y-1">
                   <li><strong>Si S = 100€ :</strong> Aucune option exercée → Gain maximal = 14€</li>
                   <li><strong>Si S = 95€ :</strong> PUT exercé → Gain = 14 - (100-95) = 9€</li>
