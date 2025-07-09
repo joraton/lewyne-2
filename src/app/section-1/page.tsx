@@ -146,11 +146,11 @@ export default function Section1() {
             <h3 className="text-xl font-bold text-green-800 mb-3">🧠 Moyen mnémotechnique</h3>
             <div className="space-y-2">
               <p className="text-gray-700">
-                <strong>"CALL = Course Ascendante Lucrative Logique"</strong><br/>
+                <strong>&quot;CALL = Course Ascendante Lucrative Logique&quot;</strong><br/>
                 <span className="text-sm text-gray-600">Le call est profitable quand le cours monte</span>
               </p>
               <p className="text-gray-700">
-                <strong>"PUT = Prix Utile Tombant"</strong><br/>
+                <strong>&quot;PUT = Prix Utile Tombant&quot;</strong><br/>
                 <span className="text-sm text-gray-600">Le put est profitable quand le prix tombe</span>
               </p>
             </div>

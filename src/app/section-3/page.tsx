@@ -115,7 +115,7 @@ export default function Section3() {
                 
                 {/* Labels des axes */}
                 <text x="400" y="380" textAnchor="middle" className="text-sm fill-gray-600">Cours du sous-jacent (S)</text>
-                <text x="20" y="200" textAnchor="middle" className="text-sm fill-gray-600" transform="rotate(-90 20 200)">Prime de l'option (C)</text>
+                <text x="20" y="200" textAnchor="middle" className="text-sm fill-gray-600" transform="rotate(-90 20 200)">Prime de l&apos;option (C)</text>
                 
                 {/* Courbe de Black & Scholes */}
                 <path d="M 50 340 Q 200 320 350 250 Q 500 150 650 80 Q 700 60 750 50" 
@@ -397,9 +397,9 @@ export default function Section3() {
                   </div>
                   
                   <div className="bg-red-50 p-3 rounded">
-                    <p className="font-bold text-red-800">À 1 mois de l'échéance :</p>
+                    <p className="font-bold text-red-800">À 1 mois de l&apos;échéance :</p>
                     <p className="text-red-700">Prime restante : 3,45€</p>
-                    <p className="text-red-700">Accélération de l'érosion</p>
+                    <p className="text-red-700">Accélération de l&apos;érosion</p>
                   </div>
                 </div>
               </div>
@@ -408,7 +408,7 @@ export default function Section3() {
 
           {/* Exemple 4 - Arbitrage */}
           <div className="bg-amber-50 p-6 rounded-lg mb-8 border border-amber-200">
-            <h2 className="text-2xl font-bold text-amber-800 mb-4">⚖️ Exemple 4 - Détection d'arbitrage</h2>
+            <h2 className="text-2xl font-bold text-amber-800 mb-4">⚖️ Exemple 4 - Détection d&apos;arbitrage</h2>
             
             <div className="bg-white p-4 rounded border mb-4">
               <h3 className="font-bold text-amber-700 mb-3">Situation de marché :</h3>
@@ -446,7 +446,7 @@ export default function Section3() {
               </div>
               
               <div className="bg-amber-100 p-4 rounded">
-                <h4 className="font-bold text-amber-800 mb-3">Stratégie d'arbitrage :</h4>
+                <h4 className="font-bold text-amber-800 mb-3">Stratégie d&apos;arbitrage :</h4>
                 <div className="space-y-2 text-sm text-amber-700">
                   <p><strong>1.</strong> Vendre le call à 15€</p>
                   <p><strong>2.</strong> Vendre le put à 8€</p>
@@ -460,7 +460,7 @@ export default function Section3() {
 
           {/* Options réelles */}
           <div className="bg-violet-50 p-6 rounded-lg mb-8 border border-violet-200">
-            <h2 className="text-2xl font-bold text-violet-800 mb-4">🏢 Options réelles en finance d'entreprise</h2>
+            <h2 className="text-2xl font-bold text-violet-800 mb-4">🏢 Options réelles en finance d&apos;entreprise</h2>
             
             <div className="bg-white p-4 rounded border mb-4">
               <h3 className="font-bold text-violet-700 mb-3">Concept :</h3>
@@ -562,9 +562,9 @@ export default function Section3() {
             </div>
           </div>
 
-          {/* Exemple décision d'investissement */}
+          {/* Exemple décision d&apos;investissement */}
           <div className="bg-indigo-50 p-6 rounded-lg mb-8 border border-indigo-200">
-            <h2 className="text-2xl font-bold text-indigo-800 mb-4">🌎 Exemple - Décision d'investissement international</h2>
+            <h2 className="text-2xl font-bold text-indigo-800 mb-4">🌎 Exemple - Décision d&apos;investissement international</h2>
             
             <div className="bg-white p-4 rounded border mb-4">
               <h3 className="font-bold text-indigo-700 mb-3">Contexte :</h3>

@@ -52,9 +52,9 @@ export default function Introduction() {
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8 rounded-r-lg">
             <h2 className="text-xl font-bold text-blue-800 mb-3">📚 Définition</h2>
             <p className="text-gray-700 leading-relaxed text-lg">
-              Une <strong>option</strong> est un droit d'acheter (<strong>call</strong>) ou de vendre (<strong>put</strong>) 
+              Une <strong>option</strong> est un droit d&apos;acheter (<strong>call</strong>) ou de vendre (<strong>put</strong>) 
               un actif financier sous-jacent à une date donnée (option à l&apos;européenne) ou pendant une période donnée 
-              (option à l&apos;américaine), à un prix donné à l&apos;avance : le <strong>« prix d&apos;exercice »</strong>. 
+              (option à l&apos;américaine), à un prix donné à l&apos;avance : le <strong>&laquo; prix d&apos;exercice &raquo;</strong>. 
               Le prix de l&apos;option s&apos;appelle la <strong>prime</strong>.
             </p>
           </div>
@@ -138,7 +138,7 @@ export default function Introduction() {
           <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-200">
             <h3 className="text-xl font-bold text-yellow-800 mb-3">💡 Moyen mnémotechnique</h3>
             <p className="text-gray-700 text-lg font-medium">
-              <strong>"CAPE"</strong> - <strong>C</strong>all <strong>A</strong>chat, <strong>P</strong>ut <strong>E</strong>xercice
+              <strong>&quot;CAPE&quot;</strong> - <strong>C</strong>all <strong>A</strong>chat, <strong>P</strong>ut <strong>E</strong>xercice
             </p>
             <p className="text-gray-600 mt-2">
               Le Call donne le droit d&apos;<strong>Acheter</strong>, le Put permet l&apos;<strong>Exercice</strong> de vente.

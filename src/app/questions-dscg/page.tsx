@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-import { ArrowLeft, Award, Calculator, TrendingUp, FileText, CheckCircle2, AlertCircle } from 'lucide-react'
+import { ArrowLeft, Award, CheckCircle2, AlertCircle, Calculator, FileText, TrendingUp } from 'lucide-react'
 import { useState } from 'react'
 
 interface Exercise {
@@ -121,7 +121,6 @@ const exercises: Exercise[] = [
 ]
 
 export default function QuestionsDSCG() {
-  const [selectedExercise, setSelectedExercise] = useState<number | null>(null)
   const [showSolution, setShowSolution] = useState<boolean[]>(new Array(exercises.length).fill(false))
 
   const toggleSolution = (index: number) => {

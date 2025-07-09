@@ -68,12 +68,12 @@ export default function Section2() {
 
           {/* 1. Achat d'un call */}
           <div className="bg-green-50 p-6 rounded-lg mb-8 border border-green-200">
-            <h2 className="text-2xl font-bold text-green-800 mb-4">📈 1. Achat d'un CALL</h2>
+            <h2 className="text-2xl font-bold text-green-800 mb-4">📈 1. Achat d&apos;un CALL</h2>
             
             <div className="grid lg:grid-cols-2 gap-6">
               <div>
                 <div className="bg-white p-4 rounded border mb-4">
-                  <h3 className="font-bold text-green-700 mb-2">Paramètres de l'exemple :</h3>
+                  <h3 className="font-bold text-green-700 mb-2">Paramètres de l&apos;exemple :</h3>
                   <ul className="space-y-1 text-gray-700">
                     <li><strong>Prix d&apos;exercice (E) :</strong> 100€</li>
                     <li><strong>Prime payée :</strong> 10€</li>
@@ -168,7 +168,7 @@ export default function Section2() {
             <div className="bg-blue-50 p-4 rounded mt-4">
               <h3 className="font-bold text-blue-700 mb-3">💡 Exemple détaillé :</h3>
               <div className="space-y-2 text-sm">
-                <p><strong>Situation :</strong> Vous pensez que l'action XYZ va monter fortement</p>
+                <p><strong>Situation :</strong> Vous pensez que l&apos;action XYZ va monter fortement</p>
                 <p><strong>Action :</strong> Achat d&apos;un CALL à 100€ pour 10€ de prime</p>
                 <p><strong>Scénarios à l&apos;échéance :</strong></p>
                 <ul className="list-disc list-inside ml-4 space-y-1">
@@ -185,12 +185,12 @@ export default function Section2() {
 
           {/* 2. Achat d'un put */}
           <div className="bg-red-50 p-6 rounded-lg mb-8 border border-red-200">
-            <h2 className="text-2xl font-bold text-red-800 mb-4">📉 2. Achat d'un PUT</h2>
+            <h2 className="text-2xl font-bold text-red-800 mb-4">📉 2. Achat d&apos;un PUT</h2>
             
             <div className="grid lg:grid-cols-2 gap-6">
               <div>
                 <div className="bg-white p-4 rounded border mb-4">
-                  <h3 className="font-bold text-red-700 mb-2">Paramètres de l'exemple :</h3>
+                  <h3 className="font-bold text-red-700 mb-2">Paramètres de l&apos;exemple :</h3>
                   <ul className="space-y-1 text-gray-700">
                     <li><strong>Prix d&apos;exercice (E) :</strong> 100€</li>
                     <li><strong>Prime payée :</strong> 10€</li>
@@ -278,14 +278,14 @@ export default function Section2() {
             <div className="bg-red-100 p-4 rounded mt-4">
               <p className="text-red-800 font-medium">
                 🎯 <strong>Stratégie :</strong> Spéculation à la baisse. Pertes limitées à la prime (10€), 
-                gains d'autant plus importants que le cours diminue.
+                gains d&apos;autant plus importantes que le cours diminue.
               </p>
             </div>
             
             <div className="bg-blue-50 p-4 rounded mt-4">
               <h3 className="font-bold text-blue-700 mb-3">💡 Exemple détaillé :</h3>
               <div className="space-y-2 text-sm">
-                <p><strong>Situation :</strong> Vous pensez que l'action XYZ va baisser ou vous voulez protéger votre portefeuille</p>
+                <p><strong>Situation :</strong> Vous pensez que l&apos;action XYZ va baisser ou vous voulez protéger votre portefeuille</p>
                 <p><strong>Action :</strong> Achat d&apos;un PUT à 100€ pour 10€ de prime</p>
                 <p><strong>Scénarios à l&apos;échéance :</strong></p>
                 <ul className="list-disc list-inside ml-4 space-y-1">
@@ -302,12 +302,12 @@ export default function Section2() {
 
           {/* 3. Vente d'un call */}
           <div className="bg-orange-50 p-6 rounded-lg mb-8 border border-orange-200">
-            <h2 className="text-2xl font-bold text-orange-800 mb-4">📊 3. Vente d'un CALL</h2>
+            <h2 className="text-2xl font-bold text-orange-800 mb-4">📊 3. Vente d&apos;un CALL</h2>
             
             <div className="grid lg:grid-cols-2 gap-6">
               <div>
                 <div className="bg-white p-4 rounded border mb-4">
-                  <h3 className="font-bold text-orange-700 mb-2">Paramètres de l'exemple :</h3>
+                  <h3 className="font-bold text-orange-700 mb-2">Paramètres de l&apos;exemple :</h3>
                   <ul className="space-y-1 text-gray-700">
                     <li><strong>Prix d&apos;exercice (E) :</strong> 100€</li>
                     <li><strong>Prime perçue :</strong> 10€</li>
@@ -354,7 +354,7 @@ export default function Section2() {
                   <p><strong>Si S = 110€ :</strong></p>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>La contrepartie exerce son call</li>
-                    <li>Le vendeur doit acheter l'action à 110€</li>
+                    <li>Le vendeur doit acheter l&apos;action à 110€</li>
                     <li>Il la revend à 100€ (prix d&apos;exercice)</li>
                     <li>Perte de 10€ sur la transaction</li>
                     <li>Mais il a encaissé 10€ de prime</li>
@@ -363,8 +363,8 @@ export default function Section2() {
                   
                   <div className="bg-yellow-100 p-3 rounded mt-4">
                     <p className="text-yellow-800 text-xs">
-                      ⚠️ <strong>Attention :</strong> Le vendeur ne détient pas l'action sous-jacente 
-                      et doit l'acheter au prix du marché si l'option est exercée.
+                      ⚠️ <strong>Attention :</strong> Le vendeur ne détient pas l&apos;action sous-jacente 
+                      et doit l&apos;acheter au prix du marché si l&apos;option est exercée.
                     </p>
                   </div>
                 </div>
@@ -414,7 +414,7 @@ export default function Section2() {
             <div className="bg-blue-50 p-4 rounded mt-4">
               <h3 className="font-bold text-blue-700 mb-3">💡 Exemple détaillé :</h3>
               <div className="space-y-2 text-sm">
-                <p><strong>Situation :</strong> Vous pensez que l'action XYZ va stagner ou baisser</p>
+                <p><strong>Situation :</strong> Vous pensez que l&apos;action XYZ va stagner ou baisser</p>
                 <p><strong>Action :</strong> Vente d&apos;un CALL à 100€ pour 10€ de prime</p>
                 <p><strong>Scénarios à l&apos;échéance :</strong></p>
                 <ul className="list-disc list-inside ml-4 space-y-1">
@@ -431,12 +431,12 @@ export default function Section2() {
 
           {/* 4. Vente d'un put */}
           <div className="bg-blue-50 p-6 rounded-lg mb-8 border border-blue-200">
-            <h2 className="text-2xl font-bold text-blue-800 mb-4">📊 4. Vente d'un PUT</h2>
+            <h2 className="text-2xl font-bold text-blue-800 mb-4">📊 4. Vente d&apos;un PUT</h2>
             
             <div className="grid lg:grid-cols-2 gap-6">
               <div>
                 <div className="bg-white p-4 rounded border mb-4">
-                  <h3 className="font-bold text-blue-700 mb-2">Paramètres de l'exemple :</h3>
+                  <h3 className="font-bold text-blue-700 mb-2">Paramètres de l&apos;exemple :</h3>
                   <ul className="space-y-1 text-gray-700">
                     <li><strong>Prix d&apos;exercice (E) :</strong> 100€</li>
                     <li><strong>Prime perçue :</strong> 10€</li>
@@ -483,7 +483,7 @@ export default function Section2() {
                   <p><strong>Si S = 80€ :</strong></p>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>La contrepartie exerce son put</li>
-                    <li>Le vendeur doit acheter l'action à 100€</li>
+                    <li>Le vendeur doit acheter l&apos;action à 100€</li>
                     <li>Il la revend immédiatement à 80€ (prix du marché)</li>
                     <li>Perte de 20€ sur la transaction</li>
                     <li>Mais il a encaissé 10€ de prime</li>
@@ -492,7 +492,7 @@ export default function Section2() {
                   
                   <div className="bg-yellow-100 p-3 rounded mt-4">
                     <p className="text-yellow-800 text-xs">
-                      ⚠️ <strong>Note :</strong> Le trader ne peut conserver l'action sous-jacente 
+                      ⚠️ <strong>Note :</strong> Le trader ne peut conserver l&apos;action sous-jacente 
                       et doit la revendre immédiatement au prix du marché.
                     </p>
                   </div>
@@ -535,14 +535,14 @@ export default function Section2() {
             <div className="bg-blue-100 p-4 rounded mt-4">
               <p className="text-blue-800 font-medium">
                 🎯 <strong>Stratégie :</strong> Spéculation à la hausse. Gains limités à la prime (10€), 
-                pertes d'autant plus importantes que le cours diminue.
+                pertes d&apos;autant plus importantes que le cours diminue.
               </p>
             </div>
             
             <div className="bg-blue-50 p-4 rounded mt-4">
               <h3 className="font-bold text-blue-700 mb-3">💡 Exemple détaillé :</h3>
               <div className="space-y-2 text-sm">
-                <p><strong>Situation :</strong> Vous pensez que l'action XYZ va rester stable ou monter légèrement</p>
+                <p><strong>Situation :</strong> Vous pensez que l&apos;action XYZ va rester stable autour de 100€</p>
                 <p><strong>Action :</strong> Vente d&apos;un PUT à 100€ pour 10€ de prime</p>
                 <p><strong>Scénarios à l&apos;échéance :</strong></p>
                 <ul className="list-disc list-inside ml-4 space-y-1">
@@ -552,7 +552,7 @@ export default function Section2() {
                   <li><strong>Si S = 80€ :</strong> Perte = 10 - (100-80) = -10€</li>
                   <li><strong>Si S = 50€ :</strong> Perte = 10 - (100-50) = -40€</li>
                 </ul>
-                <p className="text-blue-700 font-medium">✅ <strong>Avantage :</strong> Génération de revenus avec obligation d'achat à prix attractif</p>
+                <p className="text-blue-700 font-medium">✅ <strong>Avantage :</strong> Génération de revenus avec obligation d&apos;achat à prix attractif</p>
               </div>
             </div>
           </div>
@@ -564,7 +564,7 @@ export default function Section2() {
             <div className="grid lg:grid-cols-2 gap-6">
               <div>
                 <div className="bg-white p-4 rounded border mb-4">
-                  <h3 className="font-bold text-violet-700 mb-2">Paramètres de l'exemple :</h3>
+                  <h3 className="font-bold text-violet-700 mb-2">Paramètres de l&apos;exemple :</h3>
                   <ul className="space-y-1 text-gray-700">
                     <li><strong>Prix d&apos;exercice identique :</strong> 100€</li>
                     <li><strong>Échéance identique</strong></li>
@@ -674,21 +674,21 @@ export default function Section2() {
             <div className="bg-white p-4 rounded border mb-4">
               <h3 className="font-bold text-gray-700 mb-2">Mécanisme :</h3>
               <p className="text-gray-700 text-sm leading-relaxed">
-                Encaissement des deux primes (15€ total). Profitable si le cours reste proche du prix d'exercice.
+                Encaissement des deux primes (15€ total). Profitable si le cours reste proche du prix d&apos;exercice.
               </p>
             </div>
             
             <div className="bg-gray-100 p-4 rounded">
               <p className="text-gray-800 font-medium">
                 🎯 <strong>Stratégie :</strong> Spéculation sur la stabilité. Gains maximaux si le cours reste 
-                à 100€, pertes croissantes si le cours s'écarte du prix d'exercice.
+                à 100€, pertes croissantes si le cours s&apos;écarte du prix d&apos;exercice.
               </p>
             </div>
             
             <div className="bg-blue-50 p-4 rounded mt-4">
               <h3 className="font-bold text-blue-700 mb-3">💡 Exemple détaillé :</h3>
               <div className="space-y-2 text-sm">
-                <p><strong>Situation :</strong> Vous pensez que l'action XYZ va rester stable autour de 100€</p>
+                <p><strong>Situation :</strong> Vous pensez que l&apos;action XYZ va rester stable autour de 100€</p>
                 <p><strong>Action :</strong> Vente simultanée d&apos;un CALL et d&apos;un PUT à 100€</p>
                 <p><strong>Primes encaissées :</strong> 8€ (CALL) + 6€ (PUT) = 14€</p>
                 <p><strong>Scénarios à l&apos;échéance :</strong></p>
@@ -710,9 +710,9 @@ export default function Section2() {
           <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-200">
             <h3 className="text-xl font-bold text-yellow-800 mb-3">🧠 Moyens mnémotechniques</h3>
             <div className="space-y-3 text-gray-700">
-              <p><strong>"ACHETER = ANTICIPER"</strong> - Acheter une option = anticiper un mouvement favorable</p>
-              <p><strong>"VENDRE = VOLATILITÉ LIMITÉE"</strong> - Vendre une option = parier sur une faible volatilité</p>
-              <p><strong>"STRADDLE = STRESS"</strong> - Position profitable en cas de forte volatilité (stress du marché)</p>
+              <p><strong>&quot;ACHETER = ANTICIPER&quot;</strong> - Acheter une option = anticiper un mouvement favorable</p>
+                <p><strong>&quot;VENDRE = VOLATILITÉ LIMITÉE&quot;</strong> - Vendre une option = parier sur une faible volatilité</p>
+                <p><strong>&quot;STRADDLE = STRESS&quot;</strong> - Position profitable en cas de forte volatilité (stress du marché)</p>
             </div>
           </div>
         </motion.div>
