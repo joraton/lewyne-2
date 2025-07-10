@@ -3,118 +3,78 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { 
-  Rocket, 
-  BarChart3, 
-  TrendingUp, 
-  Calculator, 
-  HelpCircle, 
-  Award,
-  ArrowRight
+  Clock,
+  ChevronRight
 } from 'lucide-react'
 
 interface SectionBlockProps {
-  id: string
-  title: string
-  description: string
-  icon: string
-  color: string
-  href: string
+  section: {
+    id: string;
+    title: string;
+    description: string;
+    duration: string;
+    difficulty: string;
+    icon: React.ComponentType<{ className?: string }>;
+    color: string;
+    href: string;
+    isCompleted?: boolean;
+    isLocked?: boolean;
+  };
+  index: number;
 }
 
-const iconMap = {
-  rocket: Rocket,
-  chart: BarChart3,
-  trending: TrendingUp,
-  calculator: Calculator,
-  quiz: HelpCircle,
-  certificate: Award
-}
 
-const colorMap = {
-  blue: {
-    bg: 'bg-blue-50',
-    iconBg: 'bg-blue-500',
-    border: 'border-blue-200',
-    button: 'bg-blue-600 hover:bg-blue-700',
-    text: 'text-blue-600'
-  },
-  green: {
-    bg: 'bg-green-50',
-    iconBg: 'bg-green-500',
-    border: 'border-green-200',
-    button: 'bg-green-600 hover:bg-green-700',
-    text: 'text-green-600'
-  },
-  purple: {
-    bg: 'bg-purple-50',
-    iconBg: 'bg-purple-500',
-    border: 'border-purple-200',
-    button: 'bg-purple-600 hover:bg-purple-700',
-    text: 'text-purple-600'
-  },
-  orange: {
-    bg: 'bg-orange-50',
-    iconBg: 'bg-orange-500',
-    border: 'border-orange-200',
-    button: 'bg-orange-600 hover:bg-orange-700',
-    text: 'text-orange-600'
-  },
-  red: {
-    bg: 'bg-red-50',
-    iconBg: 'bg-red-500',
-    border: 'border-red-200',
-    button: 'bg-red-600 hover:bg-red-700',
-    text: 'text-red-600'
-  },
-  violet: {
-    bg: 'bg-violet-50',
-    iconBg: 'bg-violet-500',
-    border: 'border-violet-200',
-    button: 'bg-violet-600 hover:bg-violet-700',
-    text: 'text-violet-600'
-  }
-}
 
-export default function SectionBlock({ title, description, icon, color, href }: SectionBlockProps) {
-  const IconComponent = iconMap[icon as keyof typeof iconMap]
-  const colors = colorMap[color as keyof typeof colorMap]
 
+
+export default function SectionBlock({ section, index }: SectionBlockProps) {
+  const Icon = section.icon;
+  
   return (
     <motion.div
-      whileHover={{ scale: 1.02, y: -2 }}
-      transition={{ duration: 0.2 }}
-      className={`${colors.bg} ${colors.border} border-2 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300`}
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: 0.1 * index }}
     >
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-6 flex-1">
-          {/* Icône */}
-          <div className={`${colors.iconBg} rounded-full p-4 flex-shrink-0`}>
-            <IconComponent className="w-8 h-8 text-white" />
+      <Link href={section.href}>
+        <div className="group bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-4 sm:p-6 border border-gray-100 hover:border-blue-200 cursor-pointer h-full">
+          {/* En-tête avec icône */}
+          <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
+            <div className={`${section.color} rounded-lg p-2 sm:p-3 group-hover:scale-110 transition-transform duration-300`}>
+              <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+            </div>
+            <div className="flex-1">
+              <h3 className="text-lg sm:text-xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors leading-tight">
+                {section.title}
+              </h3>
+            </div>
           </div>
           
-          {/* Contenu */}
-          <div className="flex-1">
-            <h3 className="text-xl font-bold text-gray-800 mb-2">
-              {title}
-            </h3>
-            <p className="text-gray-600 leading-relaxed">
-              {description}
-            </p>
+          {/* Description */}
+          <p className="text-sm sm:text-base text-gray-600 leading-relaxed mb-3 sm:mb-4">
+            {section.description}
+          </p>
+          
+          {/* Badges durée et difficulté */}
+          <div className="flex flex-wrap gap-2 mb-3 sm:mb-4">
+            <span className="inline-flex items-center gap-1 px-2 py-1 bg-blue-50 text-blue-700 rounded-full text-xs font-medium">
+              <Clock className="w-3 h-3" />
+              {section.duration}
+            </span>
+            <span className="inline-flex items-center px-2 py-1 bg-purple-50 text-purple-700 rounded-full text-xs font-medium">
+              {section.difficulty}
+            </span>
+          </div>
+          
+          {/* Footer avec indicateur */}
+          <div className="flex items-center justify-between pt-3 sm:pt-4 border-t border-gray-100">
+            <span className="text-xs sm:text-sm text-gray-500 font-medium">
+              Section {section.id}
+            </span>
+            <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 text-gray-400 group-hover:text-blue-600 group-hover:translate-x-1 transition-all duration-300" />
           </div>
         </div>
-        
-        {/* Bouton */}
-        <Link href={href}>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className={`${colors.button} text-white px-6 py-3 rounded-lg font-medium flex items-center gap-2 transition-colors duration-200 shadow-md hover:shadow-lg`}
-          >
-            Commencer
-            <ArrowRight className="w-4 h-4" />
-          </motion.button>
-        </Link>
-      </div>
+      </Link>
     </motion.div>
   )
 }
